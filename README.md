@@ -62,7 +62,7 @@ No obstante se podría tener en cuenta el siguiente prototipo creado con [Justin
 correcto funcionamiento de la misma. Se ha pensado en trabajar con Sqlite o Firebase. Según el desarrollo se optará por una 
 u otra tecnología.
 
-## Fase 2ª: Segunda fase: Desarrollo técnico de la aplicación, entrenamientos.
+## Segunda fase: Desarrollo técnico de la aplicación, entrenamientos.
 
 Desarrollados y estudiados estos aspectos técnicos se procederá al tabajo en el entorno de desarrollo donde se plasmará 
 toda la arquitectura planteada. No obstante se debe tener en cuenta que se irán tomando decisiones sobre la marcha lo cual 
