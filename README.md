@@ -24,8 +24,20 @@ Todo esto es los aspectos principales pero [observando esta presentación del pr
 más detalle el análisis de todo este estudio.
 
 ### Redacción de la lista de requisitos.
-Para abordar con éxito este proyecto se ha elaborado una lista de requisitos para que sea
-una aplicación, técnica y funcionalmanete hablando, apropiada para los requerimientos del restaurante:
+App Restaurante La Fragua va a ser una aplicación móvil de pedido a domicilio. El usuario por lo tanto podrá acceder a una
+oferta culinaria del restaurante, añadirla al carro de compra y efectuar el pago. Por lo tanto la aplicación constará de las
+siguientes funcionalidades:
+* Oferta de varios tipos de productos con opción siempre de ampliar, variar o reducir la oferta. Básicamente productos 
+que diferencien de la competencia: tortillas, hamburguesas especiales etc.
+* Dará la opción al usuario de generar un carro de la compra.
+* Aplicará la funcionalidad de pago con tarjeta vía paypal.
+* Generará clientes que se guardarán en una base de datos.
+
+
+## Segunda fase: Desarrollo técnico de la aplicación.
+Para abordar con éxito este proyecto se ha elaborado una estructura de trabajo para que sea
+una aplicación técnica y funcionalmanete hablando, apropiada para los requerimientos del restaurante:
+
 * Ante todo se ha apostado por una App sencilla, directa, sin intermediarios y orientada únicamente a comida rápida pero
 centrándonos también en otros productos que no sean siempre hamburguesas. Esto va a dar valor añadido a la App porque según
 estudios de mercado el 95% de este tipo de Apps están orientadas a hamburguesas.
@@ -38,13 +50,35 @@ se han diseñado el siguiente diagrama de clases y el diagrama de actividad.
 ***Diagrama de actividad***
 ![](Diagramas/diagramaFlujo.PNG)
 
-* Atendiendo al aspecto visual, la interfaz de usuario ha de ser sencilla, asequible para el usuario y funcional:
-
-***Boceto interface***
+* Atendiendo al aspecto visual, la interfaz de usuario ha de ser sencilla, asequible para el usuario y funcional. Un ejemplo
+de interfaz podría ser la siguiente:
 
 ![](MockUps/boceto.PNG)
 
-[Para más información ](Diagramas/diagramaClases.PNG)
+No obstante se podría tener en cuenta el siguiente prototipo creado con [Justinmind Prototyper](https://www.justinmind.com/).
+[Ver funcionamiento prototipo ](Prototipos/Prototipado.vp).
+
+* Este tipo de App va a requerir de una persitencia de datos donde poder almacenar toda la información necesaria para el
+correcto funcionamiento de la misma. Se ha pensado en trabajar con Sqlite o Firebase. Según el desarrollo se optará por una 
+u otra tecnología.
+
+Desarrollados y estudiados estos aspectos técnicos se procederá al tabajo en el entorno de desarrollo donde se plasmará 
+toda la arquitectura planteada. No obstante se debe tener en cuenta que se irán tomando decisiones sobre la marcha lo cual 
+puede implicar pequeños cambios en el planteamiento, pero siempre siguiendo las directrices estudiadas desde el principio. 
+
+
+## Tercera fase: Desarrollo del MVP.
+Una vez realizadas todas las pruebas técnicas se procederá al desarrollo de 
+
+## Metodología de trabajo
+
+| Fechas     | Fase a desarrollar   | Trabajos específicos |
+| :---------: |:---------------------: | :----------------------:|
+| Marzo 26 | Primera: KickStar | Selección propuesta, lista de requisitos, bocetos, presentación    |
+| Enero/Febrero 30/20 | Segunda: desarrollo   | Desarrollo de la codificación e interfacesde usuario  |
+| Febrero/Marzo 20/6 | Tercera: Desarrollo del MVP | Publicación, pruebas, revisión.   |
+
+
 
 
 
