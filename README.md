@@ -1,4 +1,4 @@
-![](Imagenes/logo.png)
+![](Imagenes/fragua200px.png)
 
 # App Restaurante La Fragua
 Restaurante La Fragua App es una aplicación móvil con un sistema operativo Android que está diseñada en el entorno de 
