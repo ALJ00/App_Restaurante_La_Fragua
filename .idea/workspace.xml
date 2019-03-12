@@ -14,8 +14,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="419">
-                <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+              <first_editor relative-caret-position="249">
+                <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -30,6 +30,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/manualDeUsuario.md" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -53,11 +54,6 @@
             <path>
               <item name="App_Restaurante_La_Fragua" type="b2602c69:ProjectViewProjectNode" />
               <item name="App_Restaurante_La_Fragua" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="App_Restaurante_La_Fragua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="App_Restaurante_La_Fragua" type="462c0819:PsiDirectoryNode" />
-              <item name="Presentacion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="App_Restaurante_La_Fragua" type="b2602c69:ProjectViewProjectNode" />
@@ -102,7 +98,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.05580357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15252976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -140,11 +136,21 @@
     <entry file="file://$PROJECT_DIR$/Imagenes/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/manualDeUsuario.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="46" selection-start-column="46" selection-end-column="46" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="419">
-            <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <first_editor relative-caret-position="249">
+            <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>

@@ -77,9 +77,9 @@ realizados en la fase anterior. El objetivo es crear la aplicación final en bas
 
 | Fechas     | Fase a desarrollar   | Trabajos específicos |
 | :---------: |:---------------------: | :----------------------:|
-| Marzo 26 | Primera: KickStar | Selección propuesta, lista de requisitos, bocetos, presentación    |
-| Enero/Febrero 30/20 | Segunda: desarrollo pruebas   | Desarrollo de las pruebas en el entorno de desarrollo  |
-| Febrero/Marzo 20/6 | Tercera: reto | Desarrollo de la aplicación   |
+| Marzo 26 | Primera: KickStar | Selección propuesta, lista de requisitos, bocetos, prototipado, presentación    |
+| Abril 2/16 | Segunda: entrenamientos   | Desarrollo de las pruebas en el entorno de desarrollo  |
+| Junio 4 | Tercera: reto | Desarrollo de la aplicación   |
 
 
 
