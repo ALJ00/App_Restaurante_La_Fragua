@@ -4,7 +4,7 @@
 Restaurante La Fragua App es una aplicación móvil con un sistema operativo Android que está diseñada en el entorno de 
 desarrollo de Android Stuido 3.3.1 y desarrollada en el lenguaje de programación de Java 8.
 
-## Primera fase: KickStar
+## Primera fase: KickStar, estudio de mercado y prototipado
 La selección del tipo de proyecto se centra en dar un valor añadido a un restaurante. Actualmente Restaurante La Fragua 
 tiene un mercado centrado únicamente a servicio de comedor enfocado a los fines de semana sin dar servicio entre semana.
 
@@ -34,7 +34,7 @@ que diferencien de la competencia: tortillas, hamburguesas especiales etc.
 * Generará clientes que se guardarán en una base de datos.
 
 
-## Segunda fase: Desarrollo técnico de la aplicación.
+### Prototipado
 Para abordar con éxito este proyecto se ha elaborado una estructura de trabajo para que sea
 una aplicación técnica y funcionalmanete hablando, apropiada para los requerimientos del restaurante:
 
@@ -62,21 +62,24 @@ No obstante se podría tener en cuenta el siguiente prototipo creado con [Justin
 correcto funcionamiento de la misma. Se ha pensado en trabajar con Sqlite o Firebase. Según el desarrollo se optará por una 
 u otra tecnología.
 
+## Fase 2ª: Segunda fase: Desarrollo técnico de la aplicación, entrenamientos.
+
 Desarrollados y estudiados estos aspectos técnicos se procederá al tabajo en el entorno de desarrollo donde se plasmará 
 toda la arquitectura planteada. No obstante se debe tener en cuenta que se irán tomando decisiones sobre la marcha lo cual 
 puede implicar pequeños cambios en el planteamiento, pero siempre siguiendo las directrices estudiadas desde el principio. 
 
 
-## Tercera fase: Desarrollo del MVP.
-Una vez realizadas todas las pruebas técnicas se procederá al desarrollo de 
+## Tercera fase: Reto.
+Una vez realizadas todas las pruebas técnicas se procederá al desarrollo unificado de todo el trabajo de pruebas y entrenamientos
+realizados en la fase anterior. El objetivo es crear la aplicación final en base a toda la estructura de proyecto creada.
 
 ## Metodología de trabajo
 
 | Fechas     | Fase a desarrollar   | Trabajos específicos |
 | :---------: |:---------------------: | :----------------------:|
 | Marzo 26 | Primera: KickStar | Selección propuesta, lista de requisitos, bocetos, presentación    |
-| Enero/Febrero 30/20 | Segunda: desarrollo   | Desarrollo de la codificación e interfacesde usuario  |
-| Febrero/Marzo 20/6 | Tercera: Desarrollo del MVP | Publicación, pruebas, revisión.   |
+| Enero/Febrero 30/20 | Segunda: desarrollo pruebas   | Desarrollo de las pruebas en el entorno de desarrollo  |
+| Febrero/Marzo 20/6 | Tercera: reto | Desarrollo de la aplicación   |
 
 
 
