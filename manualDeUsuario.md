@@ -1,3 +1,6 @@
-# App Restaurante La Fragua. Manual de usuario
+
+![](Imagenes/fragua200px.png)
+
+# Manual de usuario
 
 ## Documentación

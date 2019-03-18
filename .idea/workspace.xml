@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb6335ae-8bf1-48e0-ba4e-335b63518ab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Diagramas/diagramaDeFlujo.vpp" beforeDir="false" afterPath="$PROJECT_DIR$/Diagramas/diagramaDeFlujo.vpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/manualDeUsuario.md" beforeDir="false" afterPath="$PROJECT_DIR$/manualDeUsuario.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +16,20 @@
         <entry file="file://$PROJECT_DIR$/manualDeUsuario.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="34">
-                <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <first_editor>
+                <caret lean-forward="true" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -59,11 +68,6 @@
             <path>
               <item name="App_Restaurante_La_Fragua" type="b2602c69:ProjectViewProjectNode" />
               <item name="App_Restaurante_La_Fragua" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="App_Restaurante_La_Fragua" type="b2602c69:ProjectViewProjectNode" />
-              <item name="App_Restaurante_La_Fragua" type="462c0819:PsiDirectoryNode" />
-              <item name="Diagramas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="App_Restaurante_La_Fragua" type="b2602c69:ProjectViewProjectNode" />
@@ -107,6 +111,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21651785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -152,12 +157,24 @@
     <entry file="file://$PROJECT_DIR$/Imagenes/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/Diagramas/diagramaFlujo.PNG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/manualDeUsuario.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="34">
-            <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <first_editor>
+            <caret lean-forward="true" />
           </first_editor>
           <second_editor />
         </state>
