@@ -81,8 +81,9 @@ realizados en la fase anterior. El objetivo es crear la aplicación final en bas
 | Abril 2/16 | Segunda: entrenamientos   | Desarrollo de las pruebas en el entorno de desarrollo  |
 | Junio 4 | Tercera: reto | Desarrollo de la aplicación   |
 
+## Enlaces de interés
 
-
+[Web Restaurante La Fragua](https://www.restaurantelafragua.com/)
 
 
 
