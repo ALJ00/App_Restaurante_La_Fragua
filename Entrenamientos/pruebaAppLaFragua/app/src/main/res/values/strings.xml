@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">pruebaAppLaFragua</string>
+    <string name="botonSiguiente">siguiente</string>
+    <string name="tv1">primer activity</string>
+    <string name="botonAnterior">anterior</string>
+    <string name="tv2">segundo activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
