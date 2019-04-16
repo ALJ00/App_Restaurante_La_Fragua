@@ -22,10 +22,15 @@ public class MainActivity extends AppCompatActivity {
     private EditText et_codigo, et_descripcion, et_precio;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        et_codigo = (EditText) findViewById(R.id.txt_codigo);
+        et_descripcion = (EditText) findViewById(R.id.txt_descripcion);
+        et_precio = (EditText) findViewById(R.id.txt_precio);
 
         limpiarTexfield();
 
@@ -176,9 +181,10 @@ public class MainActivity extends AppCompatActivity {
     // metodo para limpiar textFields
     private void limpiarTexfield() {
         //Limpio los campos de texto e indico lo que debe introducir el usuario
-        et_codigo = (EditText) findViewById(R.id.txt_codigo);
-        et_descripcion = (EditText) findViewById(R.id.txt_descripcion);
-        et_precio = (EditText) findViewById(R.id.txt_precio);
+        et_codigo.setText("");
+        et_descripcion.setText("");
+        et_precio.setText("");
+
     }
 
 }
