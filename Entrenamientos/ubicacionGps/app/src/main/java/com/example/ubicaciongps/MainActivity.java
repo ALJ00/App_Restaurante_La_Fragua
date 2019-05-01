@@ -18,6 +18,7 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 
+// funcion principal de la aplicacion
 public class MainActivity extends AppCompatActivity {
 
     // variable de acceso a las propiedades del boton

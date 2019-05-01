@@ -32,15 +32,34 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import java.util.List;
 import java.util.Locale;
 
+// clase MapsActivity que se encarga de poner el mapa con las coordendas obtenidas de la clase GPSTRacker
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
+    // Variables de acceso
     private GoogleMap mMap;
+    private GPSTracker gpsTracker;
+    private Location mLocation;
+
+    // variables de control de la latitud y longitud
+    double latitude, longitude;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
-        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
+
+        // instancio un objeto GPSTracker
+        gpsTracker = new GPSTracker(getApplicationContext());
+
+        // accedo al metodo get del objeto GPSTracker
+        mLocation = gpsTracker.getLocation();
+
+        // doy valor a las variables de control inicialmente creadas
+        latitude = mLocation.getLatitude();
+        longitude = mLocation.getLongitude();
+
+
 
         // verifico actualizacion de servicios de GooglePlay
         int status = GooglePlayServicesUtil.isGooglePlayServicesAvailable(getApplicationContext());
@@ -66,15 +85,17 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
      * This is where we can add markers or lines, add listeners or move the camera. In this case,
-     * we just add a marker near Sydney, Australia.
+     * we just add a marker near latitude's and longitud´s variables.
      * If Google Play services is not installed on the device, the user will be prompted to install
      * it inside the SupportMapFragment. This method will only be triggered once the user has
      * installed Google Play services and returned to the app.
      */
+
+    //funcion que se encarga de marcar las coordenadas en el mapa
     @Override
     public void onMapReady(GoogleMap googleMap) {
 
-
+        //variable de acceso a GoogelMap
         mMap = googleMap;
 
         // selecciono tipo de mapa satelite, hibrida, terrain...
@@ -85,15 +106,14 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         uiSettings.setZoomControlsEnabled(true);
 
 
-        // Add a marker in Sydney and move the camera
-        // marca generada por defecto
-        LatLng arriaga = new LatLng(42.86762940009054, -2.6766890287399296);
-        mMap.addMarker(new MarkerOptions().position(arriaga).title("Hola estoy aquí").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
+        // Inserto longitud y latitud para luego marcar en el mapa
+        LatLng posicion = new LatLng(latitude, longitude);
+        mMap.addMarker(new MarkerOptions().position(posicion).title("Hola estoy aquí").icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED)));
 
         // zoom
-        float zoom = 0;
+        float zoom = 15;
 
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(arriaga, zoom));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(posicion, zoom));
 
 
     }

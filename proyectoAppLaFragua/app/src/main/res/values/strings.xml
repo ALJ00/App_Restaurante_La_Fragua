@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Restaurante LaFragua</string>
+    <string name="image_boton">Información</string>
+    <string name="title_home">title_home</string>
+    <string name="title_dashboard">title_dashboard</string>
+    <string name="title_notifications">title_notifications</string>
+    <string name="boton_volver_main">Volver al menú principal</string>
+
+</resources>
