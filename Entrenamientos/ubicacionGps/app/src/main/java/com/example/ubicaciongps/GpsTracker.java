@@ -13,18 +13,18 @@ import android.os.IBinder;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
 
+// clase que accede a los servicios GPS del dispositivo
 public class GPSTracker extends Service implements LocationListener {
 
+    // variables de control
     private final Context context;
-
     boolean isGPSEnabled = false;
     boolean isNetworkEnabled = false;
     boolean canGetLocation = false;
-
     Location location;
-
     protected LocationManager locationManager;
 
+    // constructor
     public GPSTracker (Context context) {
 
         this.context = context;

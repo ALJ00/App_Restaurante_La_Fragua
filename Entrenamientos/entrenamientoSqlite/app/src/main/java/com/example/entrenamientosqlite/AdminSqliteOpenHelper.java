@@ -17,7 +17,7 @@ public class AdminSqliteOpenHelper extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase BaseDeDatos) {
 
         // creo la base de datos articulos
-        BaseDeDatos.execSQL("create table articulos(codigo int primary key , descripcion text, precio real)");
+        BaseDeDatos.execSQL("create table articulos(codigo int primary key , nombre text, precio real)");
 
     }
 
