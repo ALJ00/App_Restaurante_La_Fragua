@@ -47,6 +47,8 @@ public class MainActivity extends AppCompatActivity {
         //indico que se va a abrir la bd en modo lectura y escritura
         SQLiteDatabase BaseDeDatos = admin.getWritableDatabase();
 
+        String path = BaseDeDatos.getPath();
+
         //recojo los datos del usuario
         String codigo = et_codigo.getText().toString();
         String descripcion = et_descripcion.getText().toString();
